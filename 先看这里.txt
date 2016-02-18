@@ -1,0 +1,9 @@
+1.修改dd.do文件里的projectpath和datapath，以及数据文件名
+	我目前是：
+	local projectpath C:\Users\Xue\workspace\econometric_stata\
+	local datapath .\raw_data
+	use "`datapath'\cr_data_later.dta"
+
+2.按上述修改后的路径把文件、数据放好。
+
+3.运行dd.do文件（nnmatch初次结果等待时间比较长）。
